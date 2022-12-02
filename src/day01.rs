@@ -95,7 +95,7 @@ fn solve_part2(input: &str) -> i64 {
     elves[0].sum + elves[1].sum + elves[2].sum
 }
 
-fn to_elves<'a>(input: &'a str) -> impl Iterator<Item = Elf> + 'a {
+fn to_elves(input: &'_ str) -> impl Iterator<Item = Elf> + '_ {
     input
         .trim()
         .split("\n\n")
