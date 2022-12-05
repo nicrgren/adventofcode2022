@@ -185,7 +185,8 @@ impl Outcome {
 }
 
 pub fn solve(s: &str) {
-    println!("\tPart 1: {}", solve_part1(s));
+    println!("Day02");
+    println!("\tPart1: {}", solve_part1(s));
 }
 
 pub fn solve_part1(s: &str) -> u64 {

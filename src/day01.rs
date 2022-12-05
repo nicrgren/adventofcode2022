@@ -76,6 +76,7 @@ struct Elf {
 }
 
 pub fn solve(input: &str) {
+    println!("Day01");
     println!("\tPart1: {}", solve_part1(input).1);
     println!("\tPart2: {}", solve_part2(input));
 }
